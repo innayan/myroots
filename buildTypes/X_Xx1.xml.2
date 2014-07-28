@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
+
+<build-type>
+  <name>xx1</name>
+  <description />
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_16" name="" type="jetbrains_powershell">
+        <parameters>
+          <param name="jetbrains_powershell_bitness" value="x86" />
+          <param name="jetbrains_powershell_execution" value="PS1" />
+          <param name="jetbrains_powershell_noprofile" value="true" />
+          <param name="jetbrains_powershell_script_code" value="&quot;Hello, Powershell&quot; | Out-Host" />
+          <param name="jetbrains_powershell_script_mode" value="CODE" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Maven_HttpsLocalhogst8443svnJavaEclipseTrunk" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+

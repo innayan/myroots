@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE template SYSTEM "../../../project-config.dtd">
+
+<template>
+  <name>xx1_template</name>
+  <settings>
+    <parameters />
+    <build-runners />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Maven_HttpsLocalhogst8443svnJavaEclipseTrunk" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</template>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta-runner name="xx33333">
+  <description>3333333</description>
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner name="" type="jetbrains_powershell">
+        <parameters>
+          <param name="jetbrains_powershell_bitness" value="x86" />
+          <param name="jetbrains_powershell_execution" value="PS1" />
+          <param name="jetbrains_powershell_noprofile" value="true" />
+          <param name="jetbrains_powershell_script_code" value="&quot;Hello, Powershell&quot; | Out-Host" />
+          <param name="jetbrains_powershell_script_mode" value="CODE" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <requirements />
+  </settings>
+</meta-runner>
+

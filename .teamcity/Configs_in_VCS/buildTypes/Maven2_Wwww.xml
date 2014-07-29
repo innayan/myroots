@@ -37,6 +37,14 @@
           <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
+        <runner id="RUNNER_88" name="zzzzzzz" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="zzzzzzzzzzz" />
+          <param name="teamcity.build.workingDir" value="ttttt" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
       <runner id="RUNNER_38" name="" type="simpleRunner">
         <parameters>
           <param name="script.content" value="yyyyyyy" />

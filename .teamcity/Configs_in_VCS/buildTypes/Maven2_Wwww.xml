@@ -9,11 +9,12 @@
       <option name="artifactRules" value="/**/*.*" />
       <option name="buildNumberPattern" value="%build.counter%x" />
       <option name="cleanBuild" value="true" />
+      <option name="shouldFailBuildOnAnyErrorMessage" value="true" />
     </options>
     <disabled-settings>
       <setting-ref ref="RUNNER_37" />
-      <setting-ref ref="RUNNER_38" />
       <setting-ref ref="RUNNER_88" />
+      <setting-ref ref="RUNNER_38" />
     </disabled-settings>
     <parameters>
       <param name="teamcity.maven.embedder.m2" value="true" />

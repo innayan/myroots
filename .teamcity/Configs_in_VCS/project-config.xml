@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "../../project-config.dtd">
+
+<project>
+  <name>Configs in VCS</name>
+  <parameters />
+  <cleanup>
+    <policy type="builds" cleanup-level="HISTORY_ENTRY">
+      <parameters>
+        <param name="keepBuilds.count" value="2" />
+      </parameters>
+    </policy>
+  </cleanup>
+</project>
+

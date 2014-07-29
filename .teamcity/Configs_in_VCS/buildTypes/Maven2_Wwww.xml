@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
+
+<build-type>
+  <name>wwww</name>
+  <description />
+  <settings>
+    <options>
+      <option name="artifactRules" value="/**/*.*" />
+      <option name="cleanBuild" value="true" />
+    </options>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_37" />
+      <setting-ref ref="RUNNER_38" />
+    </disabled-settings>
+    <parameters>
+      <param name="teamcity.maven.embedder.m2" value="true" />
+    </parameters>
+    <build-runners>
+      <runner id="RUNNER_36" name="" type="Maven2">
+        <parameters>
+          <param name="goals" value="package" />
+          <param name="maven.home" value="" />
+          <param name="mavenSelection" value="mavenSelection:default" />
+          <param name="pomLocation" value="java_eclipse/pom.xml" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="userSettingsPath" value="" />
+          <param name="userSettingsSelection" value="userSettingsSelection:default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_37" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="ttttttttt" />
+          <param name="teamcity.build.workingDir" value="ttttt" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_38" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="yyyyyyy" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Maven2_HttpsLocalhost8443svnJavaEclipseTrunk" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup>
+      <policy type="days" cleanup-level="HISTORY_ENTRY">
+        <parameters>
+          <param name="keepDays.count" value="2" />
+        </parameters>
+      </policy>
+    </cleanup>
+  </settings>
+</build-type>
+

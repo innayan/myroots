@@ -7,6 +7,7 @@
   <settings>
     <options>
       <option name="artifactRules" value="/**/*.*" />
+      <option name="buildNumberPattern" value="%build.counter%x" />
       <option name="cleanBuild" value="true" />
     </options>
     <disabled-settings>

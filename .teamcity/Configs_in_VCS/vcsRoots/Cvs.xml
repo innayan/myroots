@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vcs-root SYSTEM "../../../project-config.dtd">
+
+<vcs-root type="cvs">
+  <name>cvs</name>
+  <param name="cvs-quiet-period" value="3" />
+  <param name="cvs-root" value=":pserver:tester@unit-150.labs.intellij.net\CVS_Repository" />
+  <param name="cvs-tag-mode" value="HEAD" />
+  <param name="local-server-command" value="server" />
+  <param name="module-name" value="temp_test" />
+  <param name="secure:cvs-password" value="zxxa82f68b5bc164801775d03cbe80d301b" />
+  <param name="ssh-port" value="22" />
+  <param name="ssh-use-ppk" value="false" />
+</vcs-root>
+

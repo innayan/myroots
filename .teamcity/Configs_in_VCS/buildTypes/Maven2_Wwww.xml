@@ -54,6 +54,7 @@
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Maven2_HttpsLocalhost8443svnJavaEclipseTrunk" />
+      <vcs-entry-ref root-id="Cvs" />
     </vcs-settings>
     <requirements />
     <build-triggers />

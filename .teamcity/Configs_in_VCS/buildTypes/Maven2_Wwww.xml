@@ -28,7 +28,7 @@
           <param name="maven.home" value="" />
           <param name="mavenSelection" value="mavenSelection:default" />
           <param name="pomLocation" value="java_eclipse/pom.xml" />
-          <param name="teamcity.coverage.idea.includePatterns" value="main.pk1.*" />
+          <param name="teamcity.coverage.idea.includePatterns" value="main.java.pk1.*" />
           <param name="teamcity.coverage.runner" value="IDEA" />
           <param name="teamcity.step.mode" value="default" />
           <param name="userSettingsPath" value="" />

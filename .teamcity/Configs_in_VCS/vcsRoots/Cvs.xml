@@ -4,7 +4,7 @@
 <vcs-root type="cvs">
   <name>cvs</name>
   <param name="cvs-quiet-period" value="3" />
-  <param name="cvs-root" value=":pserver:tester@unit-150.labs.intellij.net\CVS_Repository" />
+  <param name="cvs-root" value="tester@unit-150.labs.intellij.net\CVS_Repository" />
   <param name="cvs-tag-mode" value="HEAD" />
   <param name="local-server-command" value="server" />
   <param name="module-name" value="temp_test" />

@@ -15,6 +15,7 @@
       <setting-ref ref="RUNNER_16" />
       <setting-ref ref="RUNNER_37" />
       <setting-ref ref="RUNNER_88" />
+      <setting-ref ref="RUNNER_28" />
       <setting-ref ref="RUNNER_38" />
     </disabled-settings>
     <parameters>

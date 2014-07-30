@@ -89,6 +89,14 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_40" name="" type="Inspection">
+        <parameters>
+          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;java_eclipse/pom.xml&quot; should-load-iml=&quot;false&quot; /&gt;" />
+          <param name="jvmArgs" value="-Xmx512m -XX:MaxPermSize=150m" />
+          <param name="target.jdk.home" value="%env.JDK_16%" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Maven2_HttpsLocalhost8443svnJavaEclipseTrunk" />

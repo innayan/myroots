@@ -35,6 +35,29 @@
           <param name="userSettingsSelection" value="userSettingsSelection:default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_39" name="" type="Duplicator">
+        <parameters>
+          <param name="duplicates.runner.bound" value="10" />
+          <param name="duplicates.runner.discard" value="0" />
+          <param name="duplicates.runner.include.tests" value="true" />
+          <param name="duplicates.runner.literal" value="true" />
+          <param name="duplicates.runner.method" value="true" />
+          <param name="duplicates.runner.type" value="true" />
+          <param name="duplicates.runner.visibility" value="true" />
+          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;java_eclipse/pom.xml&quot; should-load-iml=&quot;false&quot; /&gt;" />
+          <param name="jvmArgs" value="-Xmx512m -XX:MaxPermSize=150m" />
+          <param name="target.jdk.home" value="%env.JDK_16%" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_40" name="" type="Inspection">
+        <parameters>
+          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;java_eclipse/pom.xml&quot; should-load-iml=&quot;false&quot; /&gt;" />
+          <param name="jvmArgs" value="-Xmx512m -XX:MaxPermSize=150m" />
+          <param name="target.jdk.home" value="%env.JDK_16%" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
       <runner id="RUNNER_37" name="" type="simpleRunner">
         <parameters>
           <param name="script.content" value="ttttttttt" />
@@ -71,29 +94,6 @@
           <param name="jetbrains_powershell_execution" value="STDIN" />
           <param name="jetbrains_powershell_script_code" value="sleep 200" />
           <param name="jetbrains_powershell_script_mode" value="CODE" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
-      <runner id="RUNNER_39" name="" type="Duplicator">
-        <parameters>
-          <param name="duplicates.runner.bound" value="10" />
-          <param name="duplicates.runner.discard" value="0" />
-          <param name="duplicates.runner.include.tests" value="true" />
-          <param name="duplicates.runner.literal" value="true" />
-          <param name="duplicates.runner.method" value="true" />
-          <param name="duplicates.runner.type" value="true" />
-          <param name="duplicates.runner.visibility" value="true" />
-          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;java_eclipse/pom.xml&quot; should-load-iml=&quot;false&quot; /&gt;" />
-          <param name="jvmArgs" value="-Xmx512m -XX:MaxPermSize=150m" />
-          <param name="target.jdk.home" value="%env.JDK_16%" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
-      <runner id="RUNNER_40" name="" type="Inspection">
-        <parameters>
-          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;java_eclipse/pom.xml&quot; should-load-iml=&quot;false&quot; /&gt;" />
-          <param name="jvmArgs" value="-Xmx512m -XX:MaxPermSize=150m" />
-          <param name="target.jdk.home" value="%env.JDK_16%" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>

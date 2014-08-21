@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vcs-root SYSTEM "../../../project-config.dtd">
+
+<vcs-root type="tfs">
+  <name>TFS13</name>
+  <param name="secure:tfs-password" value="zxxeae17e18427cb7b9" />
+  <param name="tfs-root" value="$/aaa" />
+  <param name="tfs-url" value="http://tc-vs2013:8080/tfs/DefaultCollection" />
+  <param name="tfs-username" value="TC-VS2013\Admin" />
+</vcs-root>
+

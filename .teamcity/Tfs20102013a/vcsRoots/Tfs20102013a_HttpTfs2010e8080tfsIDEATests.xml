@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vcs-root SYSTEM "../../../project-config.dtd">
+
+<vcs-root type="tfs">
+  <name>http://tfs2010-e:8080/tfs/IDEATests</name>
+  <param name="secure:tfs-password" value="zxx812a6398498c71b500c031a81d25ffa7" />
+  <param name="tfs-root" value="$/iy" />
+  <param name="tfs-url" value="http://tfs2010-e:8080/tfs/IDEATests" />
+  <param name="tfs-username" value="IDEATfsTest" />
+</vcs-root>
+

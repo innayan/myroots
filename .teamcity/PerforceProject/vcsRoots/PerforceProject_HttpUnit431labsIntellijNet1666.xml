@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vcs-root SYSTEM "../../../project-config.dtd">
+
+<vcs-root type="perforce">
+  <name>http://unit-431.labs.intellij.net:1666</name>
+  <param name="client" value="test1" />
+  <param name="p4-exe" value="p4" />
+  <param name="port" value="unit-431.labs.intellij.net:1666" />
+  <param name="use-client" value="true" />
+  <param name="workspace-options"><![CDATA[Options:        noallwrite noclobber nocompress unlocked nomodtime normdir
+SubmitOptions:  revertunchanged
+LineEnd:        local]]></param>
+</vcs-root>
+

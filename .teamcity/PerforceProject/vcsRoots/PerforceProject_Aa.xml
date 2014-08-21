@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vcs-root SYSTEM "../../../project-config.dtd">
+
+<vcs-root type="perforce">
+  <name>aa</name>
+  <param name="client" value="admin3" />
+  <param name="p4-exe" value="p4" />
+  <param name="port" value="unit-431.labs.intellij.net:1666" />
+  <param name="secure:passwd" value="zxxdbb7a62f033d83a8775d03cbe80d301b" />
+  <param name="use-client" value="true" />
+  <param name="user" value="admin" />
+  <param name="workspace-options"><![CDATA[Options:        noallwrite noclobber nocompress unlocked nomodtime normdir
+SubmitOptions:  revertunchanged
+LineEnd:        local]]></param>
+</vcs-root>
+

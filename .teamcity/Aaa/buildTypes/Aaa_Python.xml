@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
+
+<build-type>
+  <name>python</name>
+  <description />
+  <settings>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_5" />
+    </disabled-settings>
+    <parameters>
+      <param name="AnyPython" value="C:\Python27" />
+      <param name="Python.2" value="C:\Python27" />
+    </parameters>
+    <build-runners>
+      <runner id="RUNNER_4" name="" type="python">
+        <parameters>
+          <param name="bitness" value="*" />
+          <param name="python-exe" value="%AnyPython%" />
+          <param name="python-kind" value="*" />
+          <param name="python-script-code" value="print &quot;Unable to initialize device PRN&quot;;" />
+          <param name="python-script-mode" value="code" />
+          <param name="python-ver" value="2" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_5" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content"><![CDATA[python
+copyright]]></param>
+          <param name="teamcity.build.workingDir" value="C:\Python27" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_81" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="echo hello" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_82" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="echo hello" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Aaa_HttpsLocalhost8443svnMypython" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+

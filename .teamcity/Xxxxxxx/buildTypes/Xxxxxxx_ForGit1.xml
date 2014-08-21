@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
+
+<build-type>
+  <name>for_git1</name>
+  <description />
+  <settings>
+    <parameters>
+      <param name="env.aaa" value="55" />
+      <param name="teamcity.build." value="1" />
+    </parameters>
+    <build-runners>
+      <runner id="RUNNER_18" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content"><![CDATA[echo 
+%teamcity.build.%]]></param>
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Xxxxxxx_CForGitAgit" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
